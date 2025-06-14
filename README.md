@@ -26,7 +26,16 @@ Note: Training on CPU is slow. I used a GPU to speed up the process!
 
 Sample Results:
 Results are below which include the Input MRI, Ground Truth, and Predicted Mask for 3 sets of MRIs
- ![](results/output_1.png) | ![](results/output_2.png) | ![](results/output_3.png)
+
+*Set 1:*
+![](results/output_1.png)
+
+*Set 2:*  
+![](results/output_2.png)
+
+*Set 3:*  
+![](results/output_3.png)
+
 
 Folder Structure
 ```
