@@ -48,7 +48,7 @@ unet-mri-segmentation/
 │   ├── output_2.png
 │   └── output_3.png
 └── data/
-    └── (your training data here)
+    └── (include your training data here)
 ```
 
 License
