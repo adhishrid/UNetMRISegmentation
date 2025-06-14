@@ -1,42 +1,34 @@
-# U-Net MRI Segmentation
+U-Net MRI Segmentation
 
 This project implements a U-Net architecture in PyTorch to segment brain structures in MRI images. It includes preprocessing, model training, evaluation, and visualization of the segmented outputs.
 
-## 📌 Features
-
+Features
 - U-Net implementation in PyTorch
 - Dice Loss for segmentation accuracy
 - GPU support (optional but recommended)
 - Visual comparison of original vs predicted masks
 
-## 🧠 Dataset
-
+Dataset
 The dataset consists of brain MRI images and corresponding segmentation masks. You can use any public brain MRI dataset or replace the `data/` folder with your own.
 
-## 🏃‍♂️ How to Run
-
+How to Run
 1. Install requirements:
     ```bash
     pip install -r requirements.txt
     ```
-
 2. Open the notebook:
     ```bash
     jupyter notebook Copy_of_unet_mri_segmentation.ipynb
     ```
-
 3. Run all cells to train and visualize results.
 
-> ⚠️ Training on CPU is slow. Use a GPU (e.g., Google Colab) for faster performance.
+Note: Training on CPU is slow. I used a GPU to speed up the process!
 
-## 🖼️ Sample Results
+Sample Results:
+Results are below which include the Input MRI, Ground Truth, and Predicted Mask for 3 sets of MRIs
+ ![](results/output_1.png) | ![](results/output_2.png) | ![](results/output_3.png)
 
-| Input MRI | Ground Truth | Predicted Mask |
-|-----------|--------------|----------------|
-| ![](results/output_1.png) | ![](results/output_2.png) | ![](results/output_3.png) |
-
-## 📁 Folder Structure
-
+Folder Structure
 ```
 unet-mri-segmentation/
 ├── Copy_of_unet_mri_segmentation.ipynb
@@ -50,6 +42,5 @@ unet-mri-segmentation/
     └── (your training data here)
 ```
 
-## 🪪 License
-
+License
 MIT License
