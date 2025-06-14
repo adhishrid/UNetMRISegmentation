@@ -28,13 +28,13 @@ Sample Results:
 Results are below which include the Input MRI, Ground Truth, and Predicted Mask for 3 sets of MRIs
 
 *Set 1:*
-![](results/output_1.png)
+![](output_1.png)
 
 *Set 2:*  
-![](results/output_2.png)
+![](output_2.png)
 
 *Set 3:*  
-![](results/output_3.png)
+![](output_3.png)
 
 
 Folder Structure
