@@ -50,6 +50,3 @@ unet-mri-segmentation/
 └── data/
     └── (include your training data here)
 ```
-
-License
-MIT License
